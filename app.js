@@ -6,8 +6,10 @@
             document.querySelector(".active").classList.remove("active");
             document.getElementById(button.dataset.id).classList.add("active");
         })
-    });
+	});
     document.querySelector(".theme-btn").addEventListener("click", () => {
-        document.body.classList.toggle("light-mode");
+		document.body.classList.toggle("light-mode");
+
     })
 })();
+
